@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahmoud Mohamed | Full-Stack .NET Developer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Mahmoud Mohamed - Full-Stack .NET Developer specializing in ASP.NET Core, Entity Framework, and modern web development. Building scalable applications with clean architecture." />
+    <meta name="keywords" content=".NET Developer, ASP.NET Core, Entity Framework, Full-Stack Developer, C#, Web Development" />
+    <meta name="author" content="Mahmoud Mohamed" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Mahmoud Mohamed | Full-Stack .NET Developer" />
+    <meta property="og:description" content="Full-Stack .NET Developer specializing in ASP.NET Core, Entity Framework, and modern web development." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourportfolio.com" />
+    <meta property="og:image" content="https://yourportfolio.com/images/og-image.jpg" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="loading">
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero">
+                    <span class="logo-text">Mahmoud</span>
+                    <span class="logo-dot">.</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link" data-section="hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#technical-expertise" class="nav-link" data-section="technical-expertise">Expertise</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-background">
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text" data-aos="fade-up">
+                        <div class="hero-greeting">
+                            <span class="greeting-emoji">👋</span>
+                            <span class="greeting-text">Hello, I'm</span>
+                        </div>
+                        <h1 class="hero-name">
+                            <span class="name-part" data-text="Mahmoud Mohamed">Mahmoud Mohamed</span>
+                        </h1>
+                        <h2 class="hero-title">
+                            <span class="title-static">I'm a </span>
+                            <span class="title-dynamic" id="dynamic-title"></span>
+                            <span class="cursor">|</span>
+                        </h2>
+                        <p class="hero-description">
+                            With a solid foundation in Computer Science and 2 years of professional development experience, I specialize in creating robust web applications using modern .NET technologies. I'm passionate about writing clean, maintainable code and continuously learning new technologies to solve complex business problems.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="assets/files/Mahmoud Mohamed_.NET Developer_Resume.pdf" class="btn btn-secondary" target="_blank">
+                                <i class="fas fa-download"></i>
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="https://www.linkedin.com/in/mahmoud-mohamed-abd/" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/M7-TROJAN" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:mahmoud.abdalaziz@outlook.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <div class="image-wrapper">
+                                <img src="assets/images/profile-hero.jpg" alt="Mahmoud Mohamed Abdalaziz" class="profile-image">
+                                <div class="image-overlay"></div>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-element element-1">
+                                    <i class="fab fa-microsoft"></i>
+                                </div>
+                                <div class="floating-element element-2">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="floating-element element-3">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <div class="scroll-text">Scroll Down</div>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <div class="about-intro">
+                            <h3>I'm Mahmoud Mohamed, a passionate Software Engineer</h3>
+                            <p>With a solid foundation in Computer Science and 2 years of professional development experience, I specialize in creating robust web applications using modern .NET technologies. I'm passionate about writing clean, maintainable code and continuously learning new technologies to solve complex business problems.</p>
+                            <p>When I'm not coding, I enjoy exploring new frameworks, contributing to open-source projects, and sharing knowledge with the developer community.</p>
+                        </div>
+                        
+                        <div class="about-details">
+                            <div class="detail-row">
+                                <div class="detail-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>mahmoud.abdalaziz@outlook.com</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+20 101 908 3452</span>
+                                </div>
+                            </div>
+                            <div class="detail-row">
+                                <div class="detail-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Cairo, Egypt</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Computer Science Graduate</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="5">0</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="20">0</div>
+                                <div class="stat-label">Skills Mastered</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="2">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-actions">
+                            <a href="assets/files/Mahmoud Mohamed_.NET Developer_Resume.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-download"></i>
+                                <span>Download Resume</span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="image-wrapper">
+                            <img src="assets/images/about-image.jpg" alt="About Mahmoud Mohamed Abdalaziz">
+                            <div class="image-decoration">
+                                <div class="decoration-element"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Timeline -->
+                <div class="experience-section" data-aos="fade-up">
+                    <h3 class="subsection-title">Professional Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4>Full-Stack Developer (Personal Projects)</h4>
+                                    <span class="timeline-date">03/2023 - Present</span>
+                                </div>
+                                <div class="timeline-company">Self-employed / Freelance, Cairo, Egypt</div>
+                                <ul class="timeline-responsibilities">
+                                    <li>Developed comprehensive web applications using ASP.NET Core MVC and Web API with modern JavaScript frameworks</li>
+                                    <li>Built LitraLand Library Management System using ASP.NET Core with Clean Architecture, implementing role-based access control and OAuth authentication</li>
+                                    <li>Created Survey Management System with ASP.NET Core Web API, featuring JWT authentication and comprehensive RESTful endpoints</li>
+                                    <li>Developed Medical Clinic Management System as graduation project using Laravel (PHP framework) demonstrating versatility in different technologies</li>
+                                    <li>Implemented database solutions using Entity Framework Core and SQL Server with optimized query performance and data modeling</li>
+                                    <li>Integrated third-party services including Google/Facebook OAuth, email notification systems, and cloud storage solutions</li>
+                                    <li>Applied clean architecture principles, SOLID design patterns, and dependency injection for maintainable and scalable .NET applications</li>
+                                    <li>Utilized background processing with Hangfire for scheduled tasks, notifications, and asynchronous operations in .NET environments</li>
+                                    <li>Implemented comprehensive logging and monitoring systems using Serilog for debugging and performance optimization</li>
+                                    <li>Developed responsive front-end interfaces using Bootstrap, jQuery, and modern CSS techniques for optimal user experience</li>
+                                    <li>Managed version control with Git/GitHub, implementing proper branching strategies and collaborative development workflows</li>
+                                    <li>Built and deployed .NET applications using various hosting platforms and configured CI/CD pipelines for automated testing and deployment</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4>Programming Instructor</h4>
+                                    <span class="timeline-date">01/2023 - 01/2024</span>
+                                </div>
+                                <div class="timeline-company">Self-employed, Zagazig, Egypt</div>
+                                <ul class="timeline-responsibilities">
+                                    <li>Taught students how to solve problems using C++, Object-Oriented Programming (OOP), and Data Structures</li>
+                                    <li>Provided practical guidance and hands-on learning experiences to help students develop problem-solving skills and improve their programming abilities</li>
+                                    <li>Assisted students with their graduation projects</li>
+                                    <li>Developed comprehensive learning materials and coding exercises for effective skill building</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4>IT Technical Support Specialist</h4>
+                                    <span class="timeline-date">01/2019 - 01/2024</span>
+                                </div>
+                                <div class="timeline-company">Al-Qadisya for Computer Maintenance, Zagazig, Egypt</div>
+                                <ul class="timeline-responsibilities">
+                                    <li>Diagnosed and repaired hardware issues in desktops and laptops</li>
+                                    <li>Installed and configured operating systems (Windows/Linux), essential drivers, and software suites</li>
+                                    <li>Performed system formatting, data backup, and recovery, and network setup</li>
+                                    <li>Built custom PCs for clients based on performance needs and budget, providing hardware recommendations and guidance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="education-section" data-aos="fade-up">
+                    <h3 class="subsection-title">Education</h3>
+                    <div class="education-grid">
+                        <div class="education-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-content">
+                                <h4>Higher Postgraduate Diploma in Computer Science</h4>
+                                <p class="education-institution">Cairo University - Faculty of Graduate Studies for Statistical Research</p>
+                                <p class="education-gpa">GPA: 3.3/4.0 - Very Good (B+)</p>
+                                <p class="education-description">A comprehensive two-year academic postgraduate program equivalent to a Computer Science bachelor's degree in both depth and structure. It is recognized as a formal prerequisite for pursuing a Master's degree in Computer Science. The program provided rigorous training in core CS disciplines. It combines strong theoretical foundations with hands-on software development skills essential for real-world applications.</p>
+                                <p class="graduation-Project">Graduation Project: Full-Stack Clinic Management System – Grade: Excellent (4.0)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certifications -->
+                <div class="certifications-section" data-aos="fade-up">
+                    <h3 class="subsection-title">Certifications</h3>
+                    <div class="certifications-grid">
+                        <div class="certification-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="certification-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="certification-content">
+                                <h4>Foundational C# with Microsoft</h4>
+                                <p class="certification-issuer">FreeCodeCamp</p>
+                                <p class="certification-description">Comprehensive course covering C# fundamentals, object-oriented programming, and .NET framework basics.</p>
+                                <a href="https://www.freecodecamp.org/certification/Mahmoud_mattar/foundational-c-sharp-with-microsoft" target="_blank" rel="noopener" class="certification-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="certification-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="certification-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="certification-content">
+                                <h4>CS50x: Introduction to Computer Science</h4>
+                                <p class="certification-issuer">Harvard University</p>
+                                <p class="certification-description">Harvard's introduction to computer science covering algorithms, data structures, software engineering, and web development.</p>
+                                <a href="https://certificates.cs50.io/c0e68d5d-f4a0-43d5-924d-221dc9ac5d0c.pdf?size=letter" target="_blank" rel="noopener" class="certification-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="certification-card" data-aos="fade-up" data-aos-delay="600">
+                            <div class="certification-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="certification-content">
+                                <h4>Additional Technical Certifications</h4>
+                                <p class="certification-issuer">Various Providers</p>
+                                <p class="certification-description">Multiple certificates in Git, SQL, Web Development, Object-Oriented Programming, and other technical skills.</p>
+                                <a href="https://github.com/M7-TROJAN/my-certifications" target="_blank" rel="noopener" class="certification-link">
+                                    <i class="fab fa-github"></i>
+                                    View All Certificates
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Expertise Section -->
+        <section id="technical-expertise" class="technical-expertise">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Technical Knowledge</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="expertise-content">
+                    <div class="expertise-category" data-aos="fade-up" data-aos-delay="100">
+                        <div class="expertise-grid">
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fab fa-microsoft"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>ASP.NET Core</h4>
+                                    <p>MVC, Web API, Razor Pages, Minimal APIs</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Entity Framework Core</h4>
+                                    <p>Code First, Database First, LINQ, Migrations</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Authentication & Security</h4>
+                                    <p>JWT, OAuth, Microsoft Identity, CORS</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Modern Web Technologies</h4>
+                                    <p>HTML5, CSS3, Responsive Design, Flexbox, Grid, Bootstrap, jQuery, AJAX</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Database & SQL Server</h4>
+                                    <p>T-SQL, Stored Procedures, Indexing, Normalization, Query Optimization</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Clean Architecture</h4>
+                                    <p>SOLID Principles, Dependency Injection</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Version Control</h4>
+                                    <p>Git, GitHub, Azure Repos</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Development Tools</h4>
+                                    <p>Visual Studio, VS Code, SQL Server Management Studio</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>API Testing</h4>
+                                    <p>Postman, Swagger, REST API Design</p>
+                                </div>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="expertise-details">
+                                    <h4>Background Processing</h4>
+                                    <p>Hangfire, Task Scheduling, Async Programming</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">My Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="project-image">
+                            <img src="assets/images/projects/litraland.png" alt="LitraLand">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/M7-TROJAN/LitraLand" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=WQNnlcWqXuE&feature=youtu.be" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">LitraLand</h3>
+                            <p class="project-description">A full-stack web application for managing physical libraries and enabling user-based book sharing, selling, and exchanging. The platform supports both admin-level library operations and community features for regular users.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">.NET Core MVC</span>
+                                <span class="tech-tag">Entity Framework Core</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="assets/images/projects/Survey-Basket.png" alt="Survey Basket">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/M7-TROJAN/Survey-Management-System" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Survey Basket</h3>
+                            <p class="project-description">A full-featured RESTful Web API designed to manage surveys, questions, answers, participants, and results. Built using ASP.NET Core for secure, scalable, and maintainable development with both admin and user roles.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">ASP.NET Core Web API</span>
+                                <span class="tech-tag">.NET 9</span>
+                                <span class="tech-tag">Entity Framework Core</span>
+                                <span class="tech-tag">FluentValidation</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="assets/images/projects/default-project.jpg" alt="Medical Clinic Management System">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/M7-TROJAN/Medical-Clinic-Management-System" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Medical Clinic Management System</h3>
+                            <p class="project-description">Graduation project developed using Laravel framework, demonstrating adaptability to different technologies. A comprehensive medical clinic management system with appointment scheduling, patient management, and payment integration (Excellent Grade - 4.0).</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">Laravel 12.x</span>
+                                <span class="tech-tag">PHP 8.2+</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Tailwind CSS 4.x</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <img src="assets/images/projects/medstar.png" alt="Medstar Hospital Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://m7-trojan.github.io/Hospital-Project/" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Medstar Hospital Website</h3>
+                            <p class="project-description">A fully responsive website for Medstar Hospital, designed to offer a seamless user experience with accessible information about services, doctors, and appointments. Designed with modern HTML and CSS for a clean and user-friendly experience.</p>
+                            <div class="project-technologies">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-actions" data-aos="fade-up">
+                    <a href="https://github.com/M7-TROJAN" class="btn btn-outline" target="_blank">
+                        <span>View All Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">My Capabilities</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-content">
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="category-title">Programming Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-microsoft"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">C#</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="85"></div>
+                                        </div>
+                                        <span class="progress-percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">C++</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="75"></div>
+                                        </div>
+                                        <span class="progress-percentage">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">JavaScript</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="70"></div>
+                                        </div>
+                                        <span class="progress-percentage">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">SQL</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="category-title">Web Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">ASP.NET Core MVC</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">ASP.NET Core Web API</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="75"></div>
+                                        </div>
+                                        <span class="progress-percentage">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-file-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Razor Pages</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="70"></div>
+                                        </div>
+                                        <span class="progress-percentage">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="category-title">Frontend</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">HTML5 & CSS3</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-bootstrap"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Bootstrap</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="75"></div>
+                                        </div>
+                                        <span class="progress-percentage">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">jQuery</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="70"></div>
+                                        </div>
+                                        <span class="progress-percentage">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                        <h3 class="category-title">Databases</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Entity Framework Core</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">SQL Server</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">SQLite</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="70"></div>
+                                        </div>
+                                        <span class="progress-percentage">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                        <h3 class="category-title">Core Concepts</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Object-Oriented Programming</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="85"></div>
+                                        </div>
+                                        <span class="progress-percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">RESTful API Design</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="70"></div>
+                                        </div>
+                                        <span class="progress-percentage">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-layer-group"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">SOLID Principles</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="70"></div>
+                                        </div>
+                                        <span class="progress-percentage">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-sitemap"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Data Structures & Algorithms</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                        <h3 class="category-title">Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Git & GitHub</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Visual Studio</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="85"></div>
+                                        </div>
+                                        <span class="progress-percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">VS Code</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="80"></div>
+                                        </div>
+                                        <span class="progress-percentage">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4 class="skill-name">Postman</h4>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" data-width="75"></div>
+                                        </div>
+                                        <span class="progress-percentage">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3>Let's talk about your project</h3>
+                        <p>I'm always interested in new opportunities and challenging projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope-open"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:mahmoud.abdalaziz@outlook.com">mahmoud.abdalaziz@outlook.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+201019083452">+20 101 908 3452</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <span>Cairo, Egypt</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <a href="https://www.linkedin.com/in/mahmoud-mohamed-abd/" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/M7-TROJAN" target="_blank" rel="noopener" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form" data-aos="fade-left">
+                        <form action="https://formspree.io/f/mrblobdj" method="POST" class="form">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-input" required>
+                                <label class="form-label">Your Name</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-input" required>
+                                <label class="form-label">Your Email</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="text" name="subject" class="form-input" required>
+                                <label class="form-label">Subject</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea name="message" class="form-input form-textarea" rows="5" required></textarea>
+                                <label class="form-label">Your Message</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <div class="footer-logo">
+                        <h3>Mahmoud Mohamed</h3>
+                        <span class="footer-tagline">.NET Developer</span>
+                    </div>
+                    <p>Passionate .NET Developer specializing in building scalable web applications with clean architecture. Always exploring new technologies and solving complex problems.</p>
+                    <div class="footer-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="5">0</div>
+                                <div class="stat-label">Projects Built</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="2">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section footer-links">
+                    <h4><i class="fas fa-link"></i> Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                        <li><a href="#technical-expertise"><i class="fas fa-cogs"></i> Expertise</a></li>
+                        <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section footer-tech">
+                    <h4><i class="fas fa-code"></i> Tech Stack</h4>
+                    <div class="tech-list">
+                        <span class="tech-item">ASP.NET Core</span>
+                        <span class="tech-item">C#</span>
+                        <span class="tech-item">Entity Framework</span>
+                        <span class="tech-item">SQL Server</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Bootstrap</span>
+                    </div>
+                </div>
+                
+                <div class="footer-section footer-contact">
+                    <h4><i class="fas fa-address-card"></i> Get In Touch</h4>
+                    <div class="contact-info">
+                        <a href="mailto:mahmoud.abdalaziz@outlook.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mahmoud.abdalaziz@outlook.com</span>
+                        </a>
+                        <a href="tel:+201019083452" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+20 101 908 3452</span>
+                        </a>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cairo, Egypt</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mahmoud-mohamed-abd/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/M7-TROJAN" target="_blank" rel="noopener" aria-label="GitHub" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:mahmoud.abdalaziz@outlook.com" aria-label="Email" class="social-link email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p>&copy; 2025 <strong>Mahmoud Mohamed</strong>. All rights reserved.</p>
+                    </div>
+                    <div class="footer-meta">
+                        <span class="built-with">
+                            <i class="fas fa-heart text-red"></i> Built with <strong>HTML, CSS & JavaScript</strong>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Background Pattern -->
+        <div class="footer-pattern"></div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Dynamic typing effect for hero title
+        const titles = [
+            'Full-Stack .NET Developer',
+            'ASP.NET Core Specialist',
+            'Clean Code Enthusiast',
+            'Problem Solver'
+        ];
+        
+        let titleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const titleElement = document.getElementById('dynamic-title');
+        
+        function typeTitle() {
+            const currentTitle = titles[titleIndex];
+            
+            if (isDeleting) {
+                titleElement.textContent = currentTitle.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                titleElement.textContent = currentTitle.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            if (!isDeleting && charIndex === currentTitle.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                titleIndex = (titleIndex + 1) % titles.length;
+            }
+            
+            const speed = isDeleting ? 50 : 100;
+            setTimeout(typeTitle, speed);
+        }
+        
+        // Start typing effect when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(typeTitle, 1000);
+        });
+    </script>
+</body>
+</html>
