@@ -32,7 +32,7 @@ function initializeLoading() {
             initializeAnimations();
             initializeCounters();
             initializeSkillBars();
-        }, 2000);
+        }, 800);
     }
 }
 
