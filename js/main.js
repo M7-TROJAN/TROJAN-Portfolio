@@ -530,7 +530,7 @@ function optimizePerformance() {
 
     // Preload critical resources
     const criticalImages = [
-        'assets/images/profile-hero.png',
+        'assets/images/profile-hero.jpg',
         'assets/images/about-image.jpg'
     ];
 
