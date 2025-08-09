@@ -4,7 +4,7 @@
 
 function initializePortfolio() {
     try {
-        console.log('Initializing portfolio...');
+        // console.log('Initializing portfolio...');
         handleErrors();
         initializeTheme();
         initializeNavigation();
@@ -14,9 +14,9 @@ function initializePortfolio() {
         optimizePerformance();
         initializeLoading();
         setTimeout(removeLoadingScreen, 3000);
-        console.log('Portfolio initialized successfully');
+        // console.log('Portfolio initialized successfully');
     } catch (error) {
-        console.error('Error initializing portfolio:', error);
+        // console.error('Error initializing portfolio:', error);
         removeLoadingScreen();
     }
 }
@@ -51,5 +51,6 @@ window.portfolioApp = {
     initializeHeroFloating,
     removeLoadingScreen
 };
+
 
 // console.log('Main.js loaded successfully');
