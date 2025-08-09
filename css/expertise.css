@@ -1,0 +1,86 @@
+/* ========================================================================== */
+/* Technical Expertise Section */
+/* ========================================================================== */
+
+.technical-expertise {
+  padding: var(--section-padding);
+  background: var(--bg-secondary);
+}
+
+.expertise-content {
+  margin-top: 3rem;
+}
+
+.expertise-category {
+  margin-bottom: 3rem;
+}
+
+.expertise-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.expertise-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.expertise-item {
+  background: var(--bg-primary);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  transition: var(--transition-medium);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.expertise-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px var(--shadow-light);
+  border-color: var(--primary-color);
+}
+
+.expertise-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.expertise-details h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.expertise-details p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

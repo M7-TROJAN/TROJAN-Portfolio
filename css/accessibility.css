@@ -1,0 +1,56 @@
+/* ========================================================================== */
+/* Accessibility & Performance Improvements */
+/* ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.btn:focus,
+.nav-link:focus,
+.social-link:focus,
+.certification-link:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-image,
+.about-image img {
+  object-fit: cover;
+  will-change: transform;
+}
+
+/* removed .project-card:hover .project-image img effect (now handled by .card:hover if needed) */
+.project-image img {
+  transition: var(--transition-medium);
+}
+
+/* removed .certification-card:hover .certification-content h4 effect (now handled by .card:hover if needed) */
+.certification-content h4 {
+  transition: var(--transition-fast);
+}
+
+.expertise-item:hover .expertise-icon {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.expertise-icon {
+  transition: var(--transition-medium);
+}
