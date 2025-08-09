@@ -106,7 +106,7 @@ This project is open source and available under the [MIT License](LICENSE).
 <p align="center">
 	<i>Thank you for visiting my portfolio! If you have any questions or feedback, feel free to reach out.</i>
 </p>
-# <p align="center"><img src="https://avatars.githubusercontent.com/u/112624162?v=4" width="120" alt="M7-TROJAN Avatar"><br>
+<p align="center"><img src="https://avatars.githubusercontent.com/u/112624162?v=4" width="120" alt="M7-TROJAN Avatar"><br>
 <b>Mahmoud Mohamed (M7-TROJAN)</b></p>
 
 > "Every bug is just a feature in disguise!"
